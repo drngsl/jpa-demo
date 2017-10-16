@@ -16,7 +16,6 @@ public class UseDaoTest {
         EntityManager em = factory.createEntityManager();  
         em.getTransaction().begin();  
         User user = new User();
-        user.setId("idforstring");
         user.setUserName("zhang san");  
         em.persist(user);
         em.getTransaction().commit();  

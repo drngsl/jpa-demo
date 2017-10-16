@@ -1,0 +1,731 @@
+10-16-2017 08:53:48,005 下午 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+10-16-2017 08:53:48,114 下午  WARN HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+10-16-2017 08:53:48,115 下午  WARN HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+10-16-2017 08:53:48,251 下午 DEBUG ClassLoaderServiceImpl:124 - Incoming config yielded no classloaders; adding standard SE ones
+10-16-2017 08:56:56,404 下午 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+10-16-2017 08:56:56,442 下午  WARN HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+10-16-2017 08:56:56,443 下午  WARN HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+10-16-2017 08:56:56,481 下午 DEBUG ClassLoaderServiceImpl:124 - Incoming config yielded no classloaders; adding standard SE ones
+10-16-2017 09:17:47,984 下午 DEBUG logging:55 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+10-16-2017 09:17:48,057 下午  WARN HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+10-16-2017 09:17:48,059 下午  WARN HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+10-16-2017 09:17:48,060 下午  WARN HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+10-16-2017 09:17:48,100 下午 DEBUG ClassLoaderServiceImpl:137 - Incoming config yielded no classloaders; adding standard SE ones
+10-16-2017 09:17:48,282 下午 DEBUG HibernatePersistenceProvider:104 - Located and parsed 1 persistence units; checking each
+10-16-2017 09:17:48,283 下午 DEBUG HibernatePersistenceProvider:112 - Checking persistence-unit [name=PersistentUnit, explicit-provider=org.hibernate.ejb.HibernatePersistence] against incoming persistence unit name [PersistentUnit]
+10-16-2017 09:17:48,285 下午 DEBUG ProviderChecker:106 - Persistence-unit [PersistentUnit] requested PersistenceProvider [org.hibernate.ejb.HibernatePersistence]
+10-16-2017 09:17:48,309 下午 DEBUG LogHelper:117 - PersistenceUnitInfo [
+	name: PersistentUnit
+	persistence provider classname: org.hibernate.ejb.HibernatePersistence
+	classloader: null
+	excludeUnlistedClasses: false
+	JTA datasource: null
+	Non JTA datasource: null
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/C:/Users/Administrator/git/drngsl/jpa-demo/jpa-demo/target/classes/
+	Shared Cache Mode: null
+	Validation Mode: null
+	Jar files URLs []
+	Managed classes names [
+		com.drngsl.dao.model.User]
+	Mapping files names []
+	Properties [
+		hibernate.connection.username: root
+		hibernate.connection.password: drngsl
+		hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+		hibernate.connection.url: jdbc:mysql://localhost:3306/jpa
+		hibernate.show_sql: true
+		hibernate.connection.driver_class: com.mysql.jdbc.Driver
+		hibernate.hbm2ddl.auto: update]
+10-16-2017 09:17:48,336 下午 DEBUG IntegratorServiceImpl:63 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+10-16-2017 09:17:48,342 下午 DEBUG IntegratorServiceImpl:63 - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+10-16-2017 09:17:48,353 下午 DEBUG IntegratorServiceImpl:63 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+10-16-2017 09:17:48,354 下午 DEBUG IntegratorServiceImpl:63 - Adding Integrator [org.hibernate.jpa.event.spi.JpaIntegrator].
+10-16-2017 09:17:48,385 下午 DEBUG StrategySelectorImpl:79 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect])
+10-16-2017 09:17:48,386 下午 DEBUG StrategySelectorImpl:79 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect])
+10-16-2017 09:17:48,473 下午  INFO Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+10-16-2017 09:17:48,481 下午  INFO Environment:239 - HHH000206: hibernate.properties not found
+10-16-2017 09:17:48,485 下午  INFO Environment:346 - HHH000021: Bytecode provider name : javassist
+10-16-2017 09:17:48,726 下午 DEBUG ServiceBinding:85 - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+10-16-2017 09:17:48,775 下午 DEBUG BasicTypeRegistry:146 - Adding type registration boolean -> org.hibernate.type.BooleanType@6b67034
+10-16-2017 09:17:48,776 下午 DEBUG BasicTypeRegistry:146 - Adding type registration boolean -> org.hibernate.type.BooleanType@6b67034
+10-16-2017 09:17:48,776 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@6b67034
+10-16-2017 09:17:48,781 下午 DEBUG BasicTypeRegistry:146 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@6166e06f
+10-16-2017 09:17:48,784 下午 DEBUG BasicTypeRegistry:146 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@64d7f7e0
+10-16-2017 09:17:48,786 下午 DEBUG BasicTypeRegistry:146 - Adding type registration yes_no -> org.hibernate.type.YesNoType@6385cb26
+10-16-2017 09:17:48,790 下午 DEBUG BasicTypeRegistry:146 - Adding type registration byte -> org.hibernate.type.ByteType@516be40f
+10-16-2017 09:17:48,792 下午 DEBUG BasicTypeRegistry:146 - Adding type registration byte -> org.hibernate.type.ByteType@516be40f
+10-16-2017 09:17:48,793 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@516be40f
+10-16-2017 09:17:48,798 下午 DEBUG BasicTypeRegistry:146 - Adding type registration character -> org.hibernate.type.CharacterType@221af3c0
+10-16-2017 09:17:48,802 下午 DEBUG BasicTypeRegistry:146 - Adding type registration char -> org.hibernate.type.CharacterType@221af3c0
+10-16-2017 09:17:48,803 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@221af3c0
+10-16-2017 09:17:48,807 下午 DEBUG BasicTypeRegistry:146 - Adding type registration short -> org.hibernate.type.ShortType@7bc1a03d
+10-16-2017 09:17:48,808 下午 DEBUG BasicTypeRegistry:146 - Adding type registration short -> org.hibernate.type.ShortType@7bc1a03d
+10-16-2017 09:17:48,810 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@7bc1a03d
+10-16-2017 09:17:48,821 下午 DEBUG BasicTypeRegistry:146 - Adding type registration integer -> org.hibernate.type.IntegerType@709ba3fb
+10-16-2017 09:17:48,823 下午 DEBUG BasicTypeRegistry:146 - Adding type registration int -> org.hibernate.type.IntegerType@709ba3fb
+10-16-2017 09:17:48,835 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@709ba3fb
+10-16-2017 09:17:48,847 下午 DEBUG BasicTypeRegistry:146 - Adding type registration long -> org.hibernate.type.LongType@69b794e2
+10-16-2017 09:17:48,848 下午 DEBUG BasicTypeRegistry:146 - Adding type registration long -> org.hibernate.type.LongType@69b794e2
+10-16-2017 09:17:48,849 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@69b794e2
+10-16-2017 09:17:48,854 下午 DEBUG BasicTypeRegistry:146 - Adding type registration float -> org.hibernate.type.FloatType@58134517
+10-16-2017 09:17:48,854 下午 DEBUG BasicTypeRegistry:146 - Adding type registration float -> org.hibernate.type.FloatType@58134517
+10-16-2017 09:17:48,855 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@58134517
+10-16-2017 09:17:48,859 下午 DEBUG BasicTypeRegistry:146 - Adding type registration double -> org.hibernate.type.DoubleType@731f8236
+10-16-2017 09:17:48,859 下午 DEBUG BasicTypeRegistry:146 - Adding type registration double -> org.hibernate.type.DoubleType@731f8236
+10-16-2017 09:17:48,860 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@731f8236
+10-16-2017 09:17:48,867 下午 DEBUG BasicTypeRegistry:146 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@971d0d8
+10-16-2017 09:17:48,868 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@971d0d8
+10-16-2017 09:17:48,870 下午 DEBUG BasicTypeRegistry:146 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@62e136d3
+10-16-2017 09:17:48,871 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@62e136d3
+10-16-2017 09:17:48,876 下午 DEBUG BasicTypeRegistry:146 - Adding type registration string -> org.hibernate.type.StringType@57175e74
+10-16-2017 09:17:48,877 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.String -> org.hibernate.type.StringType@57175e74
+10-16-2017 09:17:48,885 下午 DEBUG BasicTypeRegistry:146 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@4d826d77
+10-16-2017 09:17:48,888 下午 DEBUG BasicTypeRegistry:146 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@7f77e91b
+10-16-2017 09:17:48,891 下午 DEBUG BasicTypeRegistry:146 - Adding type registration url -> org.hibernate.type.UrlType@15bb6bea
+10-16-2017 09:17:48,892 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@15bb6bea
+10-16-2017 09:17:48,927 下午 DEBUG BasicTypeRegistry:146 - Adding type registration date -> org.hibernate.type.DateType@157632c9
+10-16-2017 09:17:48,928 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@157632c9
+10-16-2017 09:17:48,931 下午 DEBUG BasicTypeRegistry:146 - Adding type registration time -> org.hibernate.type.TimeType@75f9eccc
+10-16-2017 09:17:48,932 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@75f9eccc
+10-16-2017 09:17:48,935 下午 DEBUG BasicTypeRegistry:146 - Adding type registration timestamp -> org.hibernate.type.TimestampType@4ae3c1cd
+10-16-2017 09:17:48,935 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@4ae3c1cd
+10-16-2017 09:17:48,936 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@4ae3c1cd
+10-16-2017 09:17:48,941 下午 DEBUG BasicTypeRegistry:146 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@ca263c2
+10-16-2017 09:17:48,944 下午 DEBUG BasicTypeRegistry:146 - Adding type registration calendar -> org.hibernate.type.CalendarType@35083305
+10-16-2017 09:17:48,944 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@35083305
+10-16-2017 09:17:48,944 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@35083305
+10-16-2017 09:17:48,946 下午 DEBUG BasicTypeRegistry:146 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@55a1c291
+10-16-2017 09:17:48,948 下午 DEBUG BasicTypeRegistry:146 - Adding type registration locale -> org.hibernate.type.LocaleType@3ec300f1
+10-16-2017 09:17:48,949 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@3ec300f1
+10-16-2017 09:17:48,951 下午 DEBUG BasicTypeRegistry:146 - Adding type registration currency -> org.hibernate.type.CurrencyType@1f1c7bf6
+10-16-2017 09:17:48,952 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1f1c7bf6
+10-16-2017 09:17:48,955 下午 DEBUG BasicTypeRegistry:146 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@2893de87
+10-16-2017 09:17:48,956 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@2893de87
+10-16-2017 09:17:48,961 下午 DEBUG BasicTypeRegistry:146 - Adding type registration class -> org.hibernate.type.ClassType@25a65b77
+10-16-2017 09:17:48,963 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@25a65b77
+10-16-2017 09:17:48,972 下午 DEBUG BasicTypeRegistry:146 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@5ef60048
+10-16-2017 09:17:48,973 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@5ef60048
+10-16-2017 09:17:48,974 下午 DEBUG BasicTypeRegistry:146 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@780cb77
+10-16-2017 09:17:48,976 下午 DEBUG BasicTypeRegistry:146 - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@2d9d4f9d
+10-16-2017 09:17:48,979 下午 DEBUG BasicTypeRegistry:146 - Adding type registration binary -> org.hibernate.type.BinaryType@3ee0fea4
+10-16-2017 09:17:48,979 下午 DEBUG BasicTypeRegistry:146 - Adding type registration byte[] -> org.hibernate.type.BinaryType@3ee0fea4
+10-16-2017 09:17:48,980 下午 DEBUG BasicTypeRegistry:146 - Adding type registration [B -> org.hibernate.type.BinaryType@3ee0fea4
+10-16-2017 09:17:48,983 下午 DEBUG BasicTypeRegistry:146 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6b419da
+10-16-2017 09:17:48,983 下午 DEBUG BasicTypeRegistry:146 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6b419da
+10-16-2017 09:17:48,984 下午 DEBUG BasicTypeRegistry:146 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6b419da
+10-16-2017 09:17:48,986 下午 DEBUG BasicTypeRegistry:146 - Adding type registration image -> org.hibernate.type.ImageType@55a561cf
+10-16-2017 09:17:48,989 下午 DEBUG BasicTypeRegistry:146 - Adding type registration characters -> org.hibernate.type.CharArrayType@21507a04
+10-16-2017 09:17:48,990 下午 DEBUG BasicTypeRegistry:146 - Adding type registration char[] -> org.hibernate.type.CharArrayType@21507a04
+10-16-2017 09:17:48,990 下午 DEBUG BasicTypeRegistry:146 - Adding type registration [C -> org.hibernate.type.CharArrayType@21507a04
+10-16-2017 09:17:48,992 下午 DEBUG BasicTypeRegistry:146 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@f2f2cc1
+10-16-2017 09:17:48,992 下午 DEBUG BasicTypeRegistry:146 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@f2f2cc1
+10-16-2017 09:17:48,993 下午 DEBUG BasicTypeRegistry:146 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@f2f2cc1
+10-16-2017 09:17:48,994 下午 DEBUG BasicTypeRegistry:146 - Adding type registration text -> org.hibernate.type.TextType@5ad851c9
+10-16-2017 09:17:48,995 下午 DEBUG BasicTypeRegistry:146 - Adding type registration ntext -> org.hibernate.type.NTextType@3e3047e6
+10-16-2017 09:17:49,016 下午 DEBUG BasicTypeRegistry:146 - Adding type registration blob -> org.hibernate.type.BlobType@4387b79e
+10-16-2017 09:17:49,016 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@4387b79e
+10-16-2017 09:17:49,018 下午 DEBUG BasicTypeRegistry:146 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@2cbb3d47
+10-16-2017 09:17:49,025 下午 DEBUG BasicTypeRegistry:146 - Adding type registration clob -> org.hibernate.type.ClobType@7fc2413d
+10-16-2017 09:17:49,026 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@7fc2413d
+10-16-2017 09:17:49,031 下午 DEBUG BasicTypeRegistry:146 - Adding type registration nclob -> org.hibernate.type.NClobType@5bfa9431
+10-16-2017 09:17:49,031 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@5bfa9431
+10-16-2017 09:17:49,032 下午 DEBUG BasicTypeRegistry:146 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@38c5cc4c
+10-16-2017 09:17:49,034 下午 DEBUG BasicTypeRegistry:146 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@233fe9b6
+10-16-2017 09:17:49,037 下午 DEBUG BasicTypeRegistry:146 - Adding type registration serializable -> org.hibernate.type.SerializableType@16e7dcfd
+10-16-2017 09:17:49,043 下午 DEBUG BasicTypeRegistry:146 - Adding type registration object -> org.hibernate.type.ObjectType@30b7c004
+10-16-2017 09:17:49,043 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@30b7c004
+10-16-2017 09:17:49,044 下午 DEBUG BasicTypeRegistry:146 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@27ae2fd0
+10-16-2017 09:17:49,044 下午 DEBUG BasicTypeRegistry:146 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@29176cc1
+10-16-2017 09:17:49,045 下午 DEBUG BasicTypeRegistry:146 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@2f177a4b
+10-16-2017 09:17:49,045 下午 DEBUG BasicTypeRegistry:146 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4278a03f
+10-16-2017 09:17:49,046 下午 DEBUG BasicTypeRegistry:146 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@147ed70f
+10-16-2017 09:17:49,046 下午 DEBUG BasicTypeRegistry:146 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@61dd025
+10-16-2017 09:17:49,047 下午 DEBUG BasicTypeRegistry:146 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@124c278f
+10-16-2017 09:17:49,047 下午 DEBUG BasicTypeRegistry:146 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@15b204a1
+10-16-2017 09:17:49,092 下午  INFO Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+10-16-2017 09:17:49,112 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+10-16-2017 09:17:49,113 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+10-16-2017 09:17:49,114 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+10-16-2017 09:17:49,115 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+10-16-2017 09:17:49,119 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+10-16-2017 09:17:49,120 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+10-16-2017 09:17:49,122 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+10-16-2017 09:17:49,123 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+10-16-2017 09:17:49,124 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+10-16-2017 09:17:49,126 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+10-16-2017 09:17:49,127 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+10-16-2017 09:17:49,128 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+10-16-2017 09:17:49,129 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+10-16-2017 09:17:49,131 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+10-16-2017 09:17:49,132 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+10-16-2017 09:17:49,144 下午 DEBUG Configuration:1843 - Preparing to build session factory with filters : {}
+10-16-2017 09:17:49,162 下午  WARN DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+10-16-2017 09:17:49,174 下午  INFO DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jpa]
+10-16-2017 09:17:49,175 下午  INFO DriverManagerConnectionProviderImpl:172 - HHH000046: Connection properties: {user=root, password=drngsl}
+10-16-2017 09:17:49,175 下午  INFO DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+10-16-2017 09:17:49,178 下午  INFO DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+10-16-2017 09:17:49,179 下午 DEBUG DriverManagerConnectionProviderImpl:104 - Initializing Connection pool with 1 Connections
+10-16-2017 09:17:51,647 下午 DEBUG HibernatePersistenceProvider:82 - Unable to build entity manager factory
+org.hibernate.exception.JDBCConnectionException: Error calling Driver#connect
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:132)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator$1$1.convert(BasicConnectionCreator.java:118)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:140)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:58)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:75)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:106)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:111)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:234)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:206)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.buildJdbcConnectionAccess(JdbcServicesImpl.java:260)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:94)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:111)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:234)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:206)
+	at org.hibernate.cfg.Configuration.buildTypeRegistrations(Configuration.java:1887)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1845)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:852)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:845)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:398)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:844)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:75)
+	at org.hibernate.ejb.HibernatePersistence.createEntityManagerFactory(HibernatePersistence.java:54)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at com.drng.dao.UseDaoTest.save(UseDaoTest.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2251)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2284)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2083)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:806)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:410)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:328)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:55)
+	... 44 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 57 more
+10-16-2017 09:19:18,897 下午 DEBUG logging:55 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+10-16-2017 09:19:18,960 下午  WARN HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+10-16-2017 09:19:18,960 下午  WARN HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+10-16-2017 09:19:18,961 下午  WARN HibernatePersistence:58 - HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+10-16-2017 09:19:18,976 下午 DEBUG ClassLoaderServiceImpl:137 - Incoming config yielded no classloaders; adding standard SE ones
+10-16-2017 09:19:19,119 下午 DEBUG HibernatePersistenceProvider:104 - Located and parsed 1 persistence units; checking each
+10-16-2017 09:19:19,120 下午 DEBUG HibernatePersistenceProvider:112 - Checking persistence-unit [name=PersistentUnit, explicit-provider=org.hibernate.ejb.HibernatePersistence] against incoming persistence unit name [PersistentUnit]
+10-16-2017 09:19:19,122 下午 DEBUG ProviderChecker:106 - Persistence-unit [PersistentUnit] requested PersistenceProvider [org.hibernate.ejb.HibernatePersistence]
+10-16-2017 09:19:19,155 下午 DEBUG LogHelper:117 - PersistenceUnitInfo [
+	name: PersistentUnit
+	persistence provider classname: org.hibernate.ejb.HibernatePersistence
+	classloader: null
+	excludeUnlistedClasses: false
+	JTA datasource: null
+	Non JTA datasource: null
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/C:/Users/Administrator/git/drngsl/jpa-demo/jpa-demo/target/classes/
+	Shared Cache Mode: null
+	Validation Mode: null
+	Jar files URLs []
+	Managed classes names [
+		com.drngsl.dao.model.User]
+	Mapping files names []
+	Properties [
+		hibernate.connection.username: root
+		hibernate.connection.password: drngsl
+		hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+		hibernate.connection.url: jdbc:mysql://localhost:3306/jpa
+		hibernate.show_sql: true
+		hibernate.connection.driver_class: com.mysql.jdbc.Driver
+		hibernate.hbm2ddl.auto: update]
+10-16-2017 09:19:19,194 下午 DEBUG IntegratorServiceImpl:63 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+10-16-2017 09:19:19,197 下午 DEBUG IntegratorServiceImpl:63 - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+10-16-2017 09:19:19,200 下午 DEBUG IntegratorServiceImpl:63 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+10-16-2017 09:19:19,201 下午 DEBUG IntegratorServiceImpl:63 - Adding Integrator [org.hibernate.jpa.event.spi.JpaIntegrator].
+10-16-2017 09:19:19,231 下午 DEBUG StrategySelectorImpl:79 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect])
+10-16-2017 09:19:19,233 下午 DEBUG StrategySelectorImpl:79 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect])
+10-16-2017 09:19:19,360 下午  INFO Version:54 - HHH000412: Hibernate Core {4.3.8.Final}
+10-16-2017 09:19:19,367 下午  INFO Environment:239 - HHH000206: hibernate.properties not found
+10-16-2017 09:19:19,370 下午  INFO Environment:346 - HHH000021: Bytecode provider name : javassist
+10-16-2017 09:19:19,671 下午 DEBUG ServiceBinding:85 - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+10-16-2017 09:19:19,730 下午 DEBUG BasicTypeRegistry:146 - Adding type registration boolean -> org.hibernate.type.BooleanType@6b67034
+10-16-2017 09:19:19,731 下午 DEBUG BasicTypeRegistry:146 - Adding type registration boolean -> org.hibernate.type.BooleanType@6b67034
+10-16-2017 09:19:19,732 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@6b67034
+10-16-2017 09:19:19,736 下午 DEBUG BasicTypeRegistry:146 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@6166e06f
+10-16-2017 09:19:19,742 下午 DEBUG BasicTypeRegistry:146 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@64d7f7e0
+10-16-2017 09:19:19,744 下午 DEBUG BasicTypeRegistry:146 - Adding type registration yes_no -> org.hibernate.type.YesNoType@6385cb26
+10-16-2017 09:19:19,752 下午 DEBUG BasicTypeRegistry:146 - Adding type registration byte -> org.hibernate.type.ByteType@516be40f
+10-16-2017 09:19:19,764 下午 DEBUG BasicTypeRegistry:146 - Adding type registration byte -> org.hibernate.type.ByteType@516be40f
+10-16-2017 09:19:19,766 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@516be40f
+10-16-2017 09:19:19,770 下午 DEBUG BasicTypeRegistry:146 - Adding type registration character -> org.hibernate.type.CharacterType@221af3c0
+10-16-2017 09:19:19,770 下午 DEBUG BasicTypeRegistry:146 - Adding type registration char -> org.hibernate.type.CharacterType@221af3c0
+10-16-2017 09:19:19,773 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@221af3c0
+10-16-2017 09:19:19,779 下午 DEBUG BasicTypeRegistry:146 - Adding type registration short -> org.hibernate.type.ShortType@7bc1a03d
+10-16-2017 09:19:19,780 下午 DEBUG BasicTypeRegistry:146 - Adding type registration short -> org.hibernate.type.ShortType@7bc1a03d
+10-16-2017 09:19:19,781 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@7bc1a03d
+10-16-2017 09:19:19,789 下午 DEBUG BasicTypeRegistry:146 - Adding type registration integer -> org.hibernate.type.IntegerType@709ba3fb
+10-16-2017 09:19:19,790 下午 DEBUG BasicTypeRegistry:146 - Adding type registration int -> org.hibernate.type.IntegerType@709ba3fb
+10-16-2017 09:19:19,794 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@709ba3fb
+10-16-2017 09:19:19,800 下午 DEBUG BasicTypeRegistry:146 - Adding type registration long -> org.hibernate.type.LongType@69b794e2
+10-16-2017 09:19:19,802 下午 DEBUG BasicTypeRegistry:146 - Adding type registration long -> org.hibernate.type.LongType@69b794e2
+10-16-2017 09:19:19,803 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@69b794e2
+10-16-2017 09:19:19,807 下午 DEBUG BasicTypeRegistry:146 - Adding type registration float -> org.hibernate.type.FloatType@58134517
+10-16-2017 09:19:19,808 下午 DEBUG BasicTypeRegistry:146 - Adding type registration float -> org.hibernate.type.FloatType@58134517
+10-16-2017 09:19:19,810 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@58134517
+10-16-2017 09:19:19,829 下午 DEBUG BasicTypeRegistry:146 - Adding type registration double -> org.hibernate.type.DoubleType@731f8236
+10-16-2017 09:19:19,836 下午 DEBUG BasicTypeRegistry:146 - Adding type registration double -> org.hibernate.type.DoubleType@731f8236
+10-16-2017 09:19:19,837 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@731f8236
+10-16-2017 09:19:19,845 下午 DEBUG BasicTypeRegistry:146 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@971d0d8
+10-16-2017 09:19:19,846 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@971d0d8
+10-16-2017 09:19:19,853 下午 DEBUG BasicTypeRegistry:146 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@62e136d3
+10-16-2017 09:19:19,854 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@62e136d3
+10-16-2017 09:19:19,864 下午 DEBUG BasicTypeRegistry:146 - Adding type registration string -> org.hibernate.type.StringType@57175e74
+10-16-2017 09:19:19,865 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.String -> org.hibernate.type.StringType@57175e74
+10-16-2017 09:19:19,869 下午 DEBUG BasicTypeRegistry:146 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@4d826d77
+10-16-2017 09:19:19,871 下午 DEBUG BasicTypeRegistry:146 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@7f77e91b
+10-16-2017 09:19:19,877 下午 DEBUG BasicTypeRegistry:146 - Adding type registration url -> org.hibernate.type.UrlType@15bb6bea
+10-16-2017 09:19:19,879 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@15bb6bea
+10-16-2017 09:19:19,884 下午 DEBUG BasicTypeRegistry:146 - Adding type registration date -> org.hibernate.type.DateType@157632c9
+10-16-2017 09:19:19,885 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@157632c9
+10-16-2017 09:19:19,889 下午 DEBUG BasicTypeRegistry:146 - Adding type registration time -> org.hibernate.type.TimeType@75f9eccc
+10-16-2017 09:19:19,889 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@75f9eccc
+10-16-2017 09:19:19,893 下午 DEBUG BasicTypeRegistry:146 - Adding type registration timestamp -> org.hibernate.type.TimestampType@4ae3c1cd
+10-16-2017 09:19:19,893 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@4ae3c1cd
+10-16-2017 09:19:19,894 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@4ae3c1cd
+10-16-2017 09:19:19,900 下午 DEBUG BasicTypeRegistry:146 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@ca263c2
+10-16-2017 09:19:19,902 下午 DEBUG BasicTypeRegistry:146 - Adding type registration calendar -> org.hibernate.type.CalendarType@35083305
+10-16-2017 09:19:19,903 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@35083305
+10-16-2017 09:19:19,903 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@35083305
+10-16-2017 09:19:19,904 下午 DEBUG BasicTypeRegistry:146 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@55a1c291
+10-16-2017 09:19:19,906 下午 DEBUG BasicTypeRegistry:146 - Adding type registration locale -> org.hibernate.type.LocaleType@3ec300f1
+10-16-2017 09:19:19,906 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@3ec300f1
+10-16-2017 09:19:19,908 下午 DEBUG BasicTypeRegistry:146 - Adding type registration currency -> org.hibernate.type.CurrencyType@1f1c7bf6
+10-16-2017 09:19:19,908 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1f1c7bf6
+10-16-2017 09:19:19,910 下午 DEBUG BasicTypeRegistry:146 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@2893de87
+10-16-2017 09:19:19,911 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@2893de87
+10-16-2017 09:19:19,913 下午 DEBUG BasicTypeRegistry:146 - Adding type registration class -> org.hibernate.type.ClassType@25a65b77
+10-16-2017 09:19:19,913 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@25a65b77
+10-16-2017 09:19:19,917 下午 DEBUG BasicTypeRegistry:146 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@5ef60048
+10-16-2017 09:19:19,918 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@5ef60048
+10-16-2017 09:19:19,919 下午 DEBUG BasicTypeRegistry:146 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@780cb77
+10-16-2017 09:19:19,922 下午 DEBUG BasicTypeRegistry:146 - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@2d9d4f9d
+10-16-2017 09:19:19,925 下午 DEBUG BasicTypeRegistry:146 - Adding type registration binary -> org.hibernate.type.BinaryType@3ee0fea4
+10-16-2017 09:19:19,926 下午 DEBUG BasicTypeRegistry:146 - Adding type registration byte[] -> org.hibernate.type.BinaryType@3ee0fea4
+10-16-2017 09:19:19,926 下午 DEBUG BasicTypeRegistry:146 - Adding type registration [B -> org.hibernate.type.BinaryType@3ee0fea4
+10-16-2017 09:19:19,928 下午 DEBUG BasicTypeRegistry:146 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6b419da
+10-16-2017 09:19:19,929 下午 DEBUG BasicTypeRegistry:146 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6b419da
+10-16-2017 09:19:19,931 下午 DEBUG BasicTypeRegistry:146 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6b419da
+10-16-2017 09:19:19,936 下午 DEBUG BasicTypeRegistry:146 - Adding type registration image -> org.hibernate.type.ImageType@55a561cf
+10-16-2017 09:19:19,942 下午 DEBUG BasicTypeRegistry:146 - Adding type registration characters -> org.hibernate.type.CharArrayType@21507a04
+10-16-2017 09:19:19,944 下午 DEBUG BasicTypeRegistry:146 - Adding type registration char[] -> org.hibernate.type.CharArrayType@21507a04
+10-16-2017 09:19:19,945 下午 DEBUG BasicTypeRegistry:146 - Adding type registration [C -> org.hibernate.type.CharArrayType@21507a04
+10-16-2017 09:19:19,951 下午 DEBUG BasicTypeRegistry:146 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@f2f2cc1
+10-16-2017 09:19:19,952 下午 DEBUG BasicTypeRegistry:146 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@f2f2cc1
+10-16-2017 09:19:19,952 下午 DEBUG BasicTypeRegistry:146 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@f2f2cc1
+10-16-2017 09:19:19,955 下午 DEBUG BasicTypeRegistry:146 - Adding type registration text -> org.hibernate.type.TextType@5ad851c9
+10-16-2017 09:19:19,960 下午 DEBUG BasicTypeRegistry:146 - Adding type registration ntext -> org.hibernate.type.NTextType@3e3047e6
+10-16-2017 09:19:19,967 下午 DEBUG BasicTypeRegistry:146 - Adding type registration blob -> org.hibernate.type.BlobType@4387b79e
+10-16-2017 09:19:19,967 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@4387b79e
+10-16-2017 09:19:19,968 下午 DEBUG BasicTypeRegistry:146 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@2cbb3d47
+10-16-2017 09:19:19,974 下午 DEBUG BasicTypeRegistry:146 - Adding type registration clob -> org.hibernate.type.ClobType@7fc2413d
+10-16-2017 09:19:19,975 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@7fc2413d
+10-16-2017 09:19:19,983 下午 DEBUG BasicTypeRegistry:146 - Adding type registration nclob -> org.hibernate.type.NClobType@5bfa9431
+10-16-2017 09:19:19,984 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@5bfa9431
+10-16-2017 09:19:19,987 下午 DEBUG BasicTypeRegistry:146 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@38c5cc4c
+10-16-2017 09:19:19,996 下午 DEBUG BasicTypeRegistry:146 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@233fe9b6
+10-16-2017 09:19:20,001 下午 DEBUG BasicTypeRegistry:146 - Adding type registration serializable -> org.hibernate.type.SerializableType@16e7dcfd
+10-16-2017 09:19:20,013 下午 DEBUG BasicTypeRegistry:146 - Adding type registration object -> org.hibernate.type.ObjectType@30b7c004
+10-16-2017 09:19:20,013 下午 DEBUG BasicTypeRegistry:146 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@30b7c004
+10-16-2017 09:19:20,018 下午 DEBUG BasicTypeRegistry:146 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@27ae2fd0
+10-16-2017 09:19:20,020 下午 DEBUG BasicTypeRegistry:146 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@29176cc1
+10-16-2017 09:19:20,022 下午 DEBUG BasicTypeRegistry:146 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@2f177a4b
+10-16-2017 09:19:20,023 下午 DEBUG BasicTypeRegistry:146 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4278a03f
+10-16-2017 09:19:20,024 下午 DEBUG BasicTypeRegistry:146 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@147ed70f
+10-16-2017 09:19:20,025 下午 DEBUG BasicTypeRegistry:146 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@61dd025
+10-16-2017 09:19:20,026 下午 DEBUG BasicTypeRegistry:146 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@124c278f
+10-16-2017 09:19:20,027 下午 DEBUG BasicTypeRegistry:146 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@15b204a1
+10-16-2017 09:19:20,085 下午  INFO Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+10-16-2017 09:19:20,116 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+10-16-2017 09:19:20,118 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+10-16-2017 09:19:20,120 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+10-16-2017 09:19:20,120 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+10-16-2017 09:19:20,122 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+10-16-2017 09:19:20,123 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+10-16-2017 09:19:20,128 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+10-16-2017 09:19:20,130 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+10-16-2017 09:19:20,132 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+10-16-2017 09:19:20,134 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+10-16-2017 09:19:20,135 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+10-16-2017 09:19:20,136 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+10-16-2017 09:19:20,140 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+10-16-2017 09:19:20,141 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+10-16-2017 09:19:20,144 下午 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+10-16-2017 09:19:20,160 下午 DEBUG Configuration:1843 - Preparing to build session factory with filters : {}
+10-16-2017 09:19:20,181 下午  WARN DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+10-16-2017 09:19:20,197 下午  INFO DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jpa]
+10-16-2017 09:19:20,198 下午  INFO DriverManagerConnectionProviderImpl:172 - HHH000046: Connection properties: {user=root, password=drngsl}
+10-16-2017 09:19:20,199 下午  INFO DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+10-16-2017 09:19:20,201 下午  INFO DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+10-16-2017 09:19:20,202 下午 DEBUG DriverManagerConnectionProviderImpl:104 - Initializing Connection pool with 1 Connections
+10-16-2017 09:19:20,923 下午 DEBUG JdbcServicesImpl:128 - Database ->
+       name : MySQL
+    version : 5.7.19-log
+      major : 5
+      minor : 7
+10-16-2017 09:19:20,925 下午 DEBUG JdbcServicesImpl:139 - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.40 ( Revision: 402933ef52cad9aa82624e80acbea46e3a701ce6 )
+      major : 5
+      minor : 1
+10-16-2017 09:19:20,926 下午 DEBUG JdbcServicesImpl:150 - JDBC version : 4.0
+10-16-2017 09:19:20,931 下午 DEBUG StandardRefCursorSupport:187 - Unexpected error trying to gauge level of JDBC REF_CURSOR support : null
+10-16-2017 09:19:20,992 下午  INFO Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+10-16-2017 09:19:21,085 下午 DEBUG Configuration:3805 - Processing hbm.xml files
+10-16-2017 09:19:21,086 下午 DEBUG Configuration:3835 - Process annotated classes
+10-16-2017 09:19:21,095 下午 DEBUG AnnotationBinder:601 - Binding entity from annotated class: com.drngsl.dao.model.User
+10-16-2017 09:19:21,149 下午 DEBUG Ejb3Column:240 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+10-16-2017 09:19:21,151 下午 DEBUG AnnotationBinder:1185 - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+10-16-2017 09:19:21,172 下午 DEBUG EntityBinder:399 - Import with entity name User
+10-16-2017 09:19:21,185 下午 DEBUG EntityBinder:612 - Bind entity com.drngsl.dao.model.User on table User
+10-16-2017 09:19:21,240 下午 DEBUG Ejb3Column:240 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User), mappingColumn=id, insertable=true, updatable=true, unique=true}
+10-16-2017 09:19:21,248 下午 DEBUG PropertyBinder:185 - MetadataSourceProcessor property id with lazy=false
+10-16-2017 09:19:21,252 下午 DEBUG AbstractPropertyHolder:106 - Attempting to locate auto-apply AttributeConverter for property [com.drngsl.dao.model.User:id]
+10-16-2017 09:19:21,253 下午 DEBUG SimpleValueBinder:385 - building SimpleValue for id
+10-16-2017 09:19:21,255 下午 DEBUG PropertyBinder:271 - Building property id
+10-16-2017 09:19:21,274 下午 DEBUG Ejb3Column:240 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User), mappingColumn=password, insertable=true, updatable=true, unique=false}
+10-16-2017 09:19:21,275 下午 DEBUG PropertyBinder:185 - MetadataSourceProcessor property password with lazy=false
+10-16-2017 09:19:21,276 下午 DEBUG AbstractPropertyHolder:106 - Attempting to locate auto-apply AttributeConverter for property [com.drngsl.dao.model.User:password]
+10-16-2017 09:19:21,276 下午 DEBUG SimpleValueBinder:385 - building SimpleValue for password
+10-16-2017 09:19:21,277 下午 DEBUG PropertyBinder:271 - Building property password
+10-16-2017 09:19:21,277 下午 DEBUG Ejb3Column:240 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User), mappingColumn=userName, insertable=true, updatable=true, unique=false}
+10-16-2017 09:19:21,279 下午 DEBUG PropertyBinder:185 - MetadataSourceProcessor property userName with lazy=false
+10-16-2017 09:19:21,279 下午 DEBUG AbstractPropertyHolder:106 - Attempting to locate auto-apply AttributeConverter for property [com.drngsl.dao.model.User:userName]
+10-16-2017 09:19:21,280 下午 DEBUG SimpleValueBinder:385 - building SimpleValue for userName
+10-16-2017 09:19:21,280 下午 DEBUG PropertyBinder:271 - Building property userName
+10-16-2017 09:19:21,286 下午 DEBUG SimpleValueBinder:422 - Starting fillSimpleValue for id
+10-16-2017 09:19:21,287 下午 DEBUG SimpleValueBinder:422 - Starting fillSimpleValue for password
+10-16-2017 09:19:21,287 下午 DEBUG SimpleValueBinder:422 - Starting fillSimpleValue for userName
+10-16-2017 09:19:21,289 下午 DEBUG Configuration:1484 - Processing fk mappings (*ToOne and JoinedSubclass)
+10-16-2017 09:19:21,291 下午 DEBUG Configuration:1689 - Processing extends queue
+10-16-2017 09:19:21,293 下午 DEBUG Configuration:1747 - Processing extends queue
+10-16-2017 09:19:21,293 下午 DEBUG Configuration:1692 - Processing collection mappings
+10-16-2017 09:19:21,293 下午 DEBUG Configuration:1702 - Processing native query and ResultSetMapping mappings
+10-16-2017 09:19:21,294 下午 DEBUG Configuration:1710 - Processing association property references
+10-16-2017 09:19:21,294 下午 DEBUG Configuration:1732 - Creating tables' unique integer identifiers
+10-16-2017 09:19:21,294 下午 DEBUG Configuration:1733 - Processing foreign key constraints
+10-16-2017 09:19:21,300 下午 DEBUG JtaPlatformInitiator:59 - No JtaPlatform was specified, checking resolver
+10-16-2017 09:19:21,302 下午 DEBUG JtaPlatformResolverInitiator:50 - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+10-16-2017 09:19:21,307 下午 DEBUG StandardJtaPlatformResolver:118 - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+10-16-2017 09:19:21,317 下午 DEBUG SettingsFactory:122 - Automatic flush during beforeCompletion(): disabled
+10-16-2017 09:19:21,317 下午 DEBUG SettingsFactory:128 - Automatic session close at end of transaction: disabled
+10-16-2017 09:19:21,318 下午 DEBUG SettingsFactory:139 - JDBC batch size: 15
+10-16-2017 09:19:21,318 下午 DEBUG SettingsFactory:145 - JDBC batch updates for versioned data: disabled
+10-16-2017 09:19:21,318 下午 DEBUG SettingsFactory:155 - Scrollable result sets: enabled
+10-16-2017 09:19:21,319 下午 DEBUG SettingsFactory:161 - Wrap result sets: disabled
+10-16-2017 09:19:21,320 下午 DEBUG SettingsFactory:167 - JDBC3 getGeneratedKeys(): enabled
+10-16-2017 09:19:21,320 下午 DEBUG SettingsFactory:179 - multi-tenancy strategy : NONE
+10-16-2017 09:19:21,321 下午 DEBUG SettingsFactory:185 - Connection release mode: auto
+10-16-2017 09:19:21,326 下午 DEBUG SettingsFactory:207 - Using BatchFetchStyle : LEGACY
+10-16-2017 09:19:21,326 下午 DEBUG SettingsFactory:226 - Maximum outer join fetch depth: 2
+10-16-2017 09:19:21,327 下午 DEBUG SettingsFactory:232 - Default batch fetch size: 1
+10-16-2017 09:19:21,327 下午 DEBUG SettingsFactory:238 - Generate SQL with comments: disabled
+10-16-2017 09:19:21,328 下午 DEBUG SettingsFactory:244 - Order SQL updates by primary key: disabled
+10-16-2017 09:19:21,328 下午 DEBUG SettingsFactory:250 - Order SQL inserts for batching: disabled
+10-16-2017 09:19:21,330 下午 DEBUG SettingsFactory:258 - Default null ordering: none
+10-16-2017 09:19:21,332 下午 DEBUG SettingsFactory:501 - Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+10-16-2017 09:19:21,336 下午  INFO ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+10-16-2017 09:19:21,336 下午 DEBUG SettingsFactory:268 - Query language substitutions: {}
+10-16-2017 09:19:21,337 下午 DEBUG SettingsFactory:274 - JPA-QL strict compliance: disabled
+10-16-2017 09:19:21,337 下午 DEBUG SettingsFactory:282 - Second-level cache: enabled
+10-16-2017 09:19:21,337 下午 DEBUG SettingsFactory:288 - Query cache: disabled
+10-16-2017 09:19:21,340 下午 DEBUG RegionFactoryInitiator:105 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+10-16-2017 09:19:21,346 下午 DEBUG SettingsFactory:301 - Optimize cache for minimal puts: disabled
+10-16-2017 09:19:21,347 下午 DEBUG SettingsFactory:316 - Structured second-level cache entries: disabled
+10-16-2017 09:19:21,347 下午 DEBUG SettingsFactory:326 - Second-level cache direct-reference entries: disabled
+10-16-2017 09:19:21,347 下午 DEBUG SettingsFactory:332 - Automatic eviction of collection cache: disabled
+10-16-2017 09:19:21,348 下午 DEBUG SettingsFactory:340 - Statistics: disabled
+10-16-2017 09:19:21,348 下午 DEBUG SettingsFactory:346 - Deleted entity synthetic identifier rollback: disabled
+10-16-2017 09:19:21,348 下午 DEBUG SettingsFactory:373 - Default entity-mode: pojo
+10-16-2017 09:19:21,349 下午 DEBUG SettingsFactory:379 - Named query checking : enabled
+10-16-2017 09:19:21,349 下午 DEBUG SettingsFactory:385 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+10-16-2017 09:19:21,349 下午 DEBUG SettingsFactory:403 - Allow initialization of lazy state outside session : : disabled
+10-16-2017 09:19:21,349 下午 DEBUG SettingsFactory:413 - JTA Track by Thread: enabled
+10-16-2017 09:19:21,365 下午 DEBUG SessionFactoryImpl:229 - Building session factory
+10-16-2017 09:19:21,412 下午 DEBUG SessionFactoryImpl:285 - Session factory constructed with filter configurations : {}
+10-16-2017 09:19:21,413 下午 DEBUG SessionFactoryImpl:286 - Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=drngsl, sun.boot.library.path=C:\Program Files\Java\jre1.8.0_131\bin, java.vm.version=25.131-b11, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\Administrator\git\drngsl\jpa-demo\jpa-demo, java.runtime.version=1.8.0_131-b11, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jre1.8.0_131\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, sun.jnu.encoding=GBK, java.library.path=C:\Program Files\Java\jre1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Java\jdk1.8.0_71\bin;C:\Program Files\Java\jdk1.8.0_71\jre\bin;C:\Go\bin;C:\Python27;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Thunder Network\KanKan\Codecs;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;D:\Program Files\nodejs\;D:\Program Files\apache-maven-3.5.0\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\program files (x86)\eclipse;;., hibernate.ejb.persistenceUnitName=PersistentUnit, java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.0, user.home=C:\Users\Administrator, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.awt.windows.WPrinterJob, java.specification.version=1.8, file.encoding=UTF-8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, user.name=Administrator, java.class.path=C:\Users\Administrator\git\drngsl\jpa-demo\jpa-demo\target\test-classes;C:\Users\Administrator\git\drngsl\jpa-demo\jpa-demo\target\classes;D:\program files (x86)\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar;D:\program files (x86)\eclipse\plugins\org.hamcrest.core_1.3.0.v201303031735.jar;C:\Users\Administrator\.m2\repository\junit\junit\4.4\junit-4.4.jar;C:\Users\Administrator\.m2\repository\org\hibernate\hibernate-entitymanager\4.3.8.Final\hibernate-entitymanager-4.3.8.Final.jar;C:\Users\Administrator\.m2\repository\org\jboss\logging\jboss-logging\3.1.3.GA\jboss-logging-3.1.3.GA.jar;C:\Users\Administrator\.m2\repository\org\jboss\logging\jboss-logging-annotations\1.2.0.Beta1\jboss-logging-annotations-1.2.0.Beta1.jar;C:\Users\Administrator\.m2\repository\org\hibernate\hibernate-core\4.3.8.Final\hibernate-core-4.3.8.Final.jar;C:\Users\Administrator\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Administrator\.m2\repository\org\jboss\jandex\1.1.0.Final\jandex-1.1.0.Final.jar;C:\Users\Administrator\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Administrator\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Administrator\.m2\repository\org\hibernate\common\hibernate-commons-annotations\4.0.5.Final\hibernate-commons-annotations-4.0.5.Final.jar;C:\Users\Administrator\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\Administrator\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.0.Final\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Users\Administrator\.m2\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;C:\Users\Administrator\.m2\repository\javax\javaee-api\7.0\javaee-api-7.0.jar;C:\Users\Administrator\.m2\repository\com\sun\mail\javax.mail\1.5.0\javax.mail-1.5.0.jar;C:\Users\Administrator\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\5.1.40\mysql-connector-java-5.1.40.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-log4j12\1.7.6\slf4j-log4j12-1.7.6.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.6\slf4j-api-1.7.6.jar;C:\Users\Administrator\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;/D:/program files (x86)/eclipse/configuration/org.eclipse.osgi/362/0/.cp/;/D:/program files (x86)/eclipse/configuration/org.eclipse.osgi/361/0/.cp/, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.arch.data.model=64, java.home=C:\Program Files\Java\jre1.8.0_131, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 6478 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames com.drng.dao.UseDaoTest, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.connection.url=jdbc:mysql://localhost:3306/jpa, java.specification.vendor=Oracle Corporation, user.language=zh, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_131, java.ext.dirs=C:\Program Files\Java\jre1.8.0_131\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jre1.8.0_131\lib\resources.jar;C:\Program Files\Java\jre1.8.0_131\lib\rt.jar;C:\Program Files\Java\jre1.8.0_131\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_131\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_131\lib\jce.jar;C:\Program Files\Java\jre1.8.0_131\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_131\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_131\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.hbm2ddl.auto=update, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, sun.cpu.isalist=amd64}
+10-16-2017 09:19:21,450 下午 DEBUG TypeSafeActivator:107 - Unable to acquire Bean Validation ValidatorFactory, skipping activation
+10-16-2017 09:19:21,451 下午 DEBUG JaccIntegrator:90 - Skipping JACC integration as it was not enabled
+10-16-2017 09:19:21,457 下午 DEBUG CascadeStyles:287 - External cascade style regsitration [persist : STYLE_PERSIST_SKIPLAZY] overrode base registration [STYLE_PERSIST]
+10-16-2017 09:19:21,551 下午 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+10-16-2017 09:19:21,561 下午  WARN UUIDHexGenerator:59 - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+10-16-2017 09:19:21,723 下午 DEBUG AbstractEntityPersister:3676 - Static SQL for entity: com.drngsl.dao.model.User
+10-16-2017 09:19:21,723 下午 DEBUG AbstractEntityPersister:3681 -  Version select: select id from User where id =?
+10-16-2017 09:19:21,724 下午 DEBUG AbstractEntityPersister:3684 -  Snapshot select: select user_.id, user_.password as password2_0_, user_.userName as userName3_0_ from User user_ where user_.id=?
+10-16-2017 09:19:21,724 下午 DEBUG AbstractEntityPersister:3687 -  Insert 0: insert into User (password, userName, id) values (?, ?, ?)
+10-16-2017 09:19:21,724 下午 DEBUG AbstractEntityPersister:3688 -  Update 0: update User set password=?, userName=? where id=?
+10-16-2017 09:19:21,725 下午 DEBUG AbstractEntityPersister:3689 -  Delete 0: delete from User where id=?
+10-16-2017 09:19:21,795 下午 DEBUG QuerySpacesImpl:192 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@74a6f9c1]
+10-16-2017 09:19:21,800 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : password
+10-16-2017 09:19:21,800 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : userName
+10-16-2017 09:19:21,801 下午 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+10-16-2017 09:19:21,834 下午 DEBUG LoadQueryJoinAndFetchProcessor:112 - processing queryspace <gen:0>
+10-16-2017 09:19:21,850 下午 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=com.drngsl.dao.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.drngsl.dao.model.User, querySpaceUid=<gen:0>, path=com.drngsl.dao.model.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.drngsl.dao.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+10-16-2017 09:19:21,855 下午 DEBUG EntityLoader:146 - Static select for entity com.drngsl.dao.model.User [NONE]: select user0_.id as id1_0_0_, user0_.password as password2_0_0_, user0_.userName as userName3_0_0_ from User user0_ where user0_.id=?
+10-16-2017 09:19:21,856 下午 DEBUG QuerySpacesImpl:192 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@59a008ba]
+10-16-2017 09:19:21,856 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : password
+10-16-2017 09:19:21,857 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : userName
+10-16-2017 09:19:21,861 下午 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+10-16-2017 09:19:21,865 下午 DEBUG LoadQueryJoinAndFetchProcessor:112 - processing queryspace <gen:0>
+10-16-2017 09:19:21,871 下午 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=com.drngsl.dao.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.drngsl.dao.model.User, querySpaceUid=<gen:0>, path=com.drngsl.dao.model.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.drngsl.dao.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+10-16-2017 09:19:21,872 下午 DEBUG EntityLoader:146 - Static select for entity com.drngsl.dao.model.User [READ]: select user0_.id as id1_0_0_, user0_.password as password2_0_0_, user0_.userName as userName3_0_0_ from User user0_ where user0_.id=?
+10-16-2017 09:19:21,894 下午 DEBUG QuerySpacesImpl:192 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@21ba0741]
+10-16-2017 09:19:21,897 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : password
+10-16-2017 09:19:21,900 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : userName
+10-16-2017 09:19:21,900 下午 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+10-16-2017 09:19:21,901 下午 DEBUG LoadQueryJoinAndFetchProcessor:112 - processing queryspace <gen:0>
+10-16-2017 09:19:21,902 下午 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=com.drngsl.dao.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.drngsl.dao.model.User, querySpaceUid=<gen:0>, path=com.drngsl.dao.model.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.drngsl.dao.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+10-16-2017 09:19:21,904 下午 DEBUG EntityLoader:146 - Static select for entity com.drngsl.dao.model.User [UPGRADE]: select user0_.id as id1_0_0_, user0_.password as password2_0_0_, user0_.userName as userName3_0_0_ from User user0_ where user0_.id=? for update
+10-16-2017 09:19:21,905 下午 DEBUG QuerySpacesImpl:192 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@172b013]
+10-16-2017 09:19:21,909 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : password
+10-16-2017 09:19:21,911 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : userName
+10-16-2017 09:19:21,912 下午 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+10-16-2017 09:19:21,912 下午 DEBUG LoadQueryJoinAndFetchProcessor:112 - processing queryspace <gen:0>
+10-16-2017 09:19:21,913 下午 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=com.drngsl.dao.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.drngsl.dao.model.User, querySpaceUid=<gen:0>, path=com.drngsl.dao.model.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.drngsl.dao.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+10-16-2017 09:19:21,914 下午 DEBUG EntityLoader:146 - Static select for entity com.drngsl.dao.model.User [UPGRADE_NOWAIT]: select user0_.id as id1_0_0_, user0_.password as password2_0_0_, user0_.userName as userName3_0_0_ from User user0_ where user0_.id=? for update
+10-16-2017 09:19:21,916 下午 DEBUG QuerySpacesImpl:192 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2796aeae]
+10-16-2017 09:19:21,917 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : password
+10-16-2017 09:19:21,918 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : userName
+10-16-2017 09:19:21,919 下午 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+10-16-2017 09:19:21,923 下午 DEBUG LoadQueryJoinAndFetchProcessor:112 - processing queryspace <gen:0>
+10-16-2017 09:19:21,924 下午 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=com.drngsl.dao.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.drngsl.dao.model.User, querySpaceUid=<gen:0>, path=com.drngsl.dao.model.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.drngsl.dao.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+10-16-2017 09:19:21,924 下午 DEBUG EntityLoader:146 - Static select for entity com.drngsl.dao.model.User [UPGRADE_SKIPLOCKED]: select user0_.id as id1_0_0_, user0_.password as password2_0_0_, user0_.userName as userName3_0_0_ from User user0_ where user0_.id=? for update
+10-16-2017 09:19:21,925 下午 DEBUG QuerySpacesImpl:192 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1fa1cab1]
+10-16-2017 09:19:21,925 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : password
+10-16-2017 09:19:21,926 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : userName
+10-16-2017 09:19:21,926 下午 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+10-16-2017 09:19:21,927 下午 DEBUG LoadQueryJoinAndFetchProcessor:112 - processing queryspace <gen:0>
+10-16-2017 09:19:21,927 下午 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=com.drngsl.dao.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.drngsl.dao.model.User, querySpaceUid=<gen:0>, path=com.drngsl.dao.model.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.drngsl.dao.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+10-16-2017 09:19:21,929 下午 DEBUG EntityLoader:146 - Static select for entity com.drngsl.dao.model.User [FORCE]: select user0_.id as id1_0_0_, user0_.password as password2_0_0_, user0_.userName as userName3_0_0_ from User user0_ where user0_.id=? for update
+10-16-2017 09:19:21,930 下午 DEBUG QuerySpacesImpl:192 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@62010f5c]
+10-16-2017 09:19:21,930 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : password
+10-16-2017 09:19:21,931 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : userName
+10-16-2017 09:19:21,931 下午 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+10-16-2017 09:19:21,932 下午 DEBUG LoadQueryJoinAndFetchProcessor:112 - processing queryspace <gen:0>
+10-16-2017 09:19:21,933 下午 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=com.drngsl.dao.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.drngsl.dao.model.User, querySpaceUid=<gen:0>, path=com.drngsl.dao.model.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.drngsl.dao.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+10-16-2017 09:19:21,934 下午 DEBUG EntityLoader:146 - Static select for entity com.drngsl.dao.model.User [PESSIMISTIC_READ]: select user0_.id as id1_0_0_, user0_.password as password2_0_0_, user0_.userName as userName3_0_0_ from User user0_ where user0_.id=? lock in share mode
+10-16-2017 09:19:21,935 下午 DEBUG QuerySpacesImpl:192 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@401f7633]
+10-16-2017 09:19:21,935 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : password
+10-16-2017 09:19:21,936 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : userName
+10-16-2017 09:19:21,938 下午 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+10-16-2017 09:19:21,940 下午 DEBUG LoadQueryJoinAndFetchProcessor:112 - processing queryspace <gen:0>
+10-16-2017 09:19:21,941 下午 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=com.drngsl.dao.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.drngsl.dao.model.User, querySpaceUid=<gen:0>, path=com.drngsl.dao.model.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.drngsl.dao.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+10-16-2017 09:19:21,942 下午 DEBUG EntityLoader:146 - Static select for entity com.drngsl.dao.model.User [PESSIMISTIC_WRITE]: select user0_.id as id1_0_0_, user0_.password as password2_0_0_, user0_.userName as userName3_0_0_ from User user0_ where user0_.id=? for update
+10-16-2017 09:19:21,942 下午 DEBUG QuerySpacesImpl:192 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5b6ec132]
+10-16-2017 09:19:21,943 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : password
+10-16-2017 09:19:21,943 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : userName
+10-16-2017 09:19:21,944 下午 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+10-16-2017 09:19:21,944 下午 DEBUG LoadQueryJoinAndFetchProcessor:112 - processing queryspace <gen:0>
+10-16-2017 09:19:21,945 下午 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=com.drngsl.dao.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.drngsl.dao.model.User, querySpaceUid=<gen:0>, path=com.drngsl.dao.model.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.drngsl.dao.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+10-16-2017 09:19:21,946 下午 DEBUG EntityLoader:146 - Static select for entity com.drngsl.dao.model.User [PESSIMISTIC_FORCE_INCREMENT]: select user0_.id as id1_0_0_, user0_.password as password2_0_0_, user0_.userName as userName3_0_0_ from User user0_ where user0_.id=? for update
+10-16-2017 09:19:21,947 下午 DEBUG QuerySpacesImpl:192 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@67d18ed7]
+10-16-2017 09:19:21,948 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : password
+10-16-2017 09:19:21,949 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : userName
+10-16-2017 09:19:21,950 下午 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+10-16-2017 09:19:21,950 下午 DEBUG LoadQueryJoinAndFetchProcessor:112 - processing queryspace <gen:0>
+10-16-2017 09:19:21,951 下午 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=com.drngsl.dao.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.drngsl.dao.model.User, querySpaceUid=<gen:0>, path=com.drngsl.dao.model.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.drngsl.dao.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+10-16-2017 09:19:21,952 下午 DEBUG EntityLoader:146 - Static select for entity com.drngsl.dao.model.User [OPTIMISTIC]: select user0_.id as id1_0_0_, user0_.password as password2_0_0_, user0_.userName as userName3_0_0_ from User user0_ where user0_.id=?
+10-16-2017 09:19:21,953 下午 DEBUG QuerySpacesImpl:192 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@132e0cc]
+10-16-2017 09:19:21,953 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : password
+10-16-2017 09:19:21,954 下午 DEBUG MetamodelGraphWalker:154 - Visiting attribute path : userName
+10-16-2017 09:19:21,977 下午 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:94 - Building LoadPlan...
+10-16-2017 09:19:21,983 下午 DEBUG LoadQueryJoinAndFetchProcessor:112 - processing queryspace <gen:0>
+10-16-2017 09:19:21,984 下午 DEBUG LoadPlanTreePrinter:72 - LoadPlan(entity=com.drngsl.dao.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.drngsl.dao.model.User, querySpaceUid=<gen:0>, path=com.drngsl.dao.model.User)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.drngsl.dao.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+10-16-2017 09:19:21,986 下午 DEBUG EntityLoader:146 - Static select for entity com.drngsl.dao.model.User [OPTIMISTIC_FORCE_INCREMENT]: select user0_.id as id1_0_0_, user0_.password as password2_0_0_, user0_.userName as userName3_0_0_ from User user0_ where user0_.id=?
+10-16-2017 09:19:22,046 下午 DEBUG Loader:56 - Static select for action ACTION_MERGE on entity com.drngsl.dao.model.User: select user0_.id as id1_0_0_, user0_.password as password2_0_0_, user0_.userName as userName3_0_0_ from User user0_ where user0_.id=?
+10-16-2017 09:19:22,047 下午 DEBUG Loader:56 - Static select for action ACTION_REFRESH on entity com.drngsl.dao.model.User: select user0_.id as id1_0_0_, user0_.password as password2_0_0_, user0_.userName as userName3_0_0_ from User user0_ where user0_.id=?
+10-16-2017 09:19:22,717 下午 DEBUG SessionFactoryRegistry:67 - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@4b23c30a
+10-16-2017 09:19:22,725 下午 DEBUG SessionFactoryRegistry:89 - Registering SessionFactory: bdde013c-0cb2-49fc-8029-073af6de2eae (<unnamed>)
+10-16-2017 09:19:22,726 下午 DEBUG SessionFactoryRegistry:96 - Not binding SessionFactory to JNDI, no JNDI name configured
+10-16-2017 09:19:22,726 下午 DEBUG SessionFactoryImpl:505 - Instantiated session factory
+10-16-2017 09:19:22,737 下午  INFO SchemaUpdate:207 - HHH000228: Running hbm2ddl schema update
+10-16-2017 09:19:22,737 下午  INFO SchemaUpdate:218 - HHH000102: Fetching database metadata
+10-16-2017 09:19:22,748 下午  INFO SchemaUpdate:230 - HHH000396: Updating schema
+10-16-2017 09:19:22,749 下午 DEBUG Configuration:3805 - Processing hbm.xml files
+10-16-2017 09:19:22,749 下午 DEBUG Configuration:3835 - Process annotated classes
+10-16-2017 09:19:22,749 下午 DEBUG Configuration:1484 - Processing fk mappings (*ToOne and JoinedSubclass)
+10-16-2017 09:19:22,752 下午 DEBUG Configuration:1689 - Processing extends queue
+10-16-2017 09:19:22,752 下午 DEBUG Configuration:1747 - Processing extends queue
+10-16-2017 09:19:22,752 下午 DEBUG Configuration:1692 - Processing collection mappings
+10-16-2017 09:19:22,753 下午 DEBUG Configuration:1702 - Processing native query and ResultSetMapping mappings
+10-16-2017 09:19:22,754 下午 DEBUG Configuration:1710 - Processing association property references
+10-16-2017 09:19:22,754 下午 DEBUG Configuration:1732 - Creating tables' unique integer identifiers
+10-16-2017 09:19:22,755 下午 DEBUG Configuration:1733 - Processing foreign key constraints
+10-16-2017 09:19:22,764 下午  INFO DatabaseMetaData:147 - HHH000262: Table not found: User
+10-16-2017 09:19:22,765 下午 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+10-16-2017 09:19:22,770 下午  INFO DatabaseMetaData:147 - HHH000262: Table not found: User
+10-16-2017 09:19:22,772 下午  INFO DatabaseMetaData:147 - HHH000262: Table not found: User
+10-16-2017 09:19:22,773 下午 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+10-16-2017 09:19:22,774 下午 DEBUG SchemaUpdate:251 - create table User (id varchar(32) not null, password varchar(255), userName varchar(255), primary key (id))
+10-16-2017 09:19:23,542 下午  INFO SchemaUpdate:267 - HHH000232: Schema update complete
+10-16-2017 09:19:23,543 下午 DEBUG NamedQueryRepository:155 - Checking 0 named HQL queries
+10-16-2017 09:19:23,543 下午 DEBUG NamedQueryRepository:171 - Checking 0 named SQL queries
+10-16-2017 09:19:23,555 下午 DEBUG StatisticsInitiator:110 - Statistics initialized [enabled=false]
+10-16-2017 09:19:23,564 下午 DEBUG JpaSchemaGenerator:115 - No actions specified; doing nothing
+10-16-2017 09:19:23,635 下午 DEBUG EntityManagerFactoryRegistry:56 - Initializing EntityManagerFactoryRegistry : org.hibernate.jpa.internal.EntityManagerFactoryRegistry@f316aeb
+10-16-2017 09:19:23,635 下午 DEBUG EntityManagerFactoryRegistry:66 - Registering EntityManagerFactory: PersistentUnit 
+10-16-2017 09:19:23,761 下午 DEBUG AbstractTransactionImpl:160 - begin
+10-16-2017 09:19:23,761 下午 DEBUG LogicalConnectionImpl:226 - Obtaining JDBC connection
+10-16-2017 09:19:23,762 下午 DEBUG LogicalConnectionImpl:232 - Obtained JDBC connection
+10-16-2017 09:19:23,762 下午 DEBUG JdbcTransaction:69 - initial autocommit status: false
+10-16-2017 09:19:23,773 下午 DEBUG AbstractSaveEventListener:130 - Generated identifier: 4028d0815f2556b9015f2556c2790000, using strategy: org.hibernate.id.UUIDHexGenerator
+10-16-2017 09:19:23,801 下午 DEBUG AbstractTransactionImpl:175 - committing
+10-16-2017 09:19:23,804 下午 DEBUG AbstractFlushingEventListener:149 - Processing flush-time cascades
+10-16-2017 09:19:23,805 下午 DEBUG AbstractFlushingEventListener:189 - Dirty checking collections
+10-16-2017 09:19:23,811 下午 DEBUG AbstractFlushingEventListener:123 - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+10-16-2017 09:19:23,812 下午 DEBUG AbstractFlushingEventListener:130 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+10-16-2017 09:19:23,822 下午 DEBUG EntityPrinter:114 - Listing entities:
+10-16-2017 09:19:23,823 下午 DEBUG EntityPrinter:121 - com.drngsl.dao.model.User{password=null, id=4028d0815f2556b9015f2556c2790000, userName=zhang san}
+10-16-2017 09:19:23,848 下午 DEBUG SQL:109 - insert into User (password, userName, id) values (?, ?, ?)
+10-16-2017 09:19:23,986 下午 DEBUG JdbcTransaction:113 - committed JDBC Connection
+10-16-2017 09:19:23,988 下午 DEBUG JdbcCoordinatorImpl:201 - HHH000420: Closing un-released batch
+10-16-2017 09:19:23,989 下午 DEBUG LogicalConnectionImpl:246 - Releasing JDBC connection
+10-16-2017 09:19:23,989 下午 DEBUG LogicalConnectionImpl:264 - Released JDBC connection
+10-16-2017 09:19:23,992 下午 DEBUG SessionFactoryImpl:1339 - HHH000031: Closing
+10-16-2017 09:19:23,993 下午 DEBUG AbstractServiceRegistryImpl:406 - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+10-16-2017 09:19:23,993 下午  INFO DriverManagerConnectionProviderImpl:281 - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/jpa]
+10-16-2017 09:19:23,996 下午 DEBUG BootstrapServiceRegistryImpl:308 - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+10-16-2017 09:19:23,996 下午 DEBUG EntityManagerFactoryRegistry:108 - Remove: name=PersistentUnit
